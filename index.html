@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js" defer></script>
+    <!-- bootstrap link below -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        
+        <div class="row">
+    <h1> Student Persentage Calculator App </h1>
+
+            <div class="col-12 col-md-8  right" >                   
+          
+                    <input type="text" autocomplete="off" class="form-control" placeholder="English Marks" id="english" > <br>
+
+                    <input  type="text" autocomplete="off" class="form-control" placeholder="Math Marks" id="math"> <br>
+
+                    <input  type="text" autocomplete="off" class="form-control" placeholder="Urdu Marks" id="urdu"> <br>
+
+                    <input  type="text" autocomplete="off" class="form-control" placeholder="Biology Marks" id="bio"> <br>
+
+                    <input  type="text" autocomplete="off" class="form-control" placeholder="Chemistry Marks" id="che"> <br>
+
+                    <input  type="text" autocomplete="off" class="form-control" placeholder="Islamiyad Marks" id="isl"> <br>
+                    <div >
+                        <button type="button" class="btn btn-primay" onclick="calcu()" >calculator</button>
+                    </div>
+                
+
+            </div>
+
+            <div class="col-12 col-md-4  left">
+                               
+                <br>
+                <br> 
+                <br>
+                <table>
+                    <tr>
+                        <td>Total Marks</td>
+                        <td id="total" >600</td>
+                    </tr>
+                    <tr>
+                        <td>Obtain Marks</td>
+                        <td id="Obtain"></td>
+                    </tr>
+                    <tr>
+                        <td >Persentage</td>
+                        <td id="Persentage" ></td>
+                    </tr>
+                    <tr>
+                        <td>Grade</td>
+                        <td id="Grade"></td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"> </script>
+</body>
+
+</html>

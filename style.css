@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: rgba(19, 14, 5, 0.606) !important;
+}
+
+.container {
+    /* padding-top: 20px !important; */
+    /* background-color: rgba(13, 222, 194, 0.768); */
+    width: 100% !important;
+    height: 100vh;
+
+
+
+
+}
+
+.row {
+    /* margin: 20px !important; */
+    background-color: rgb(17, 119, 215);
+
+
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.842),
+        0px 2px 4px rgba(0, 0, 0, 0.842),
+        0px 4px 8px rgba(0, 0, 0, 0.842),
+        0px 8px 16px rgba(0, 0, 0, 0.842);
+}
+
+.right {
+
+    background-image: linear-gradient(rgba(16, 16, 17, 0.613), rgba(19, 19, 20, 0.587)), url(./Bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 20px;
+}
+
+.right input {
+    width: 50%;
+    margin: 5px;
+    border: 1px solid rgb(255, 248, 248);
+    background-color: transparent;
+    color: white !important;
+
+}
+
+.right input:focus {
+    background-color: rgba(32, 30, 30, 0.762) !important;
+
+}
+
+.right input::placeholder {
+    color: rgb(240, 247, 248) !important;
+    font-weight: 600;
+}
+
+.left {
+    /* background-color: white; */
+    background-image: linear-gradient(rgba(16, 16, 17, 0.613), rgba(19, 19, 20, 0.187)), url(./bgg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100% !important; */  
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    
+
+    border: 2px solid rgb(34, 31, 31) !important;
+}
+
+.left table tr td {
+    background-color: transparent !important;
+    padding: 20px !important;
+    /* margin: 60px !important; */
+      width: 100% !important;
+    border: 1px groove rgb(244, 242, 242) !important;
+    text-align: center;
+    color: white;
+    /* font-size: 20px; */
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: rgb(17, 119, 215);
+
+    text-align: center;
+    font-weight: 900 !important;
+    color: white !important;
+    /* border: 2px groove black !important; */
+
+
+}
+
+.btn {
+    /* background-color: rgb(156, 179, 8) !important; */
+    background-color: transparent;
+    width: 51%;
+    border: 1px solid white !important;
+    outline: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    transition: 0.4s ease-in-out !important;
+}
+
+.btn:hover {
+    background-color: rgba(229, 228, 185, 0.842) !important;
+    transform: translateX(5px);
+
+}
+
+@media (max-width:769px) {
+    .right input {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .left table tr td {
+        width: 100% !important;
+    }
+
+    h1 {
+        font-size: 20px !important;
+    }
+}
